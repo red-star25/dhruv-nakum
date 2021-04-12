@@ -16,7 +16,7 @@ function Header() {
   return (
     <div className={headerClass}>
       <div className={headerLogoClass}>
-        <h1>D</h1>
+        <h1>{"<D>"}</h1>
       </div>
       <div
         onClick={() => {
