@@ -38,10 +38,45 @@ function Header() {
         {isMenuOpen ? (
           <div className="menuLinks">
             <ul>
-              <li>Home</li>
-              <li>Projects</li>
-              <li>Skills</li>
-              <li>Connect</li>
+              <li>
+                <a
+                  onClick={() => onLinkClicked("home")}
+                  id={selectedLink === "home" ? "selectedLink" : ""}
+                  href="#home"
+                >
+                  HOME
+                </a>
+              </li>
+              <li>
+                <a
+                  onClick={() => onLinkClicked("project")}
+                  id={selectedLink === "project" ? "selectedLink" : ""}
+                  href="#project"
+                >
+                  PROJECTS
+                </a>
+              </li>
+              <li>
+                <a
+                  onClick={() => onLinkClicked("skills")}
+                  id={selectedLink === "skills" ? "selectedLink" : ""}
+                  href="#skills"
+                >
+                  SKILLS
+                </a>
+              </li>
+              <li
+                onClick={() => onLinkClicked("connect")}
+                id={selectedLink === "connect" ? "selectedLink" : ""}
+              >
+                <a
+                  onClick={() => onLinkClicked("connect")}
+                  id={selectedLink === "connect" ? "selectedLink" : ""}
+                  href="#connect"
+                >
+                  CONNECT
+                </a>
+              </li>
             </ul>
           </div>
         ) : (

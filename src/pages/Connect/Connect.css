@@ -73,4 +73,16 @@
   #connectText {
     width: 90%;
   }
+
+  .connectDetails__1,
+  .connectDetails__2 {
+    margin-left: 3em;
+  }
+
+  .connect__social > p {
+    margin: 0px 1em;
+  }
+  .connect__social {
+    margin-left: 3em;
+  }
 }
