@@ -11,10 +11,6 @@
   justify-content: flex-start;
 }
 
-.app__project {
-  background-color: blue;
-}
-
 .app__scrollDownIndicator {
   display: flex;
   justify-content: center;
