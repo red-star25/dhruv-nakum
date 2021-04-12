@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/dhruv-nakum/static/css/main.5be76409.chunk.css",
+    "main.js": "/dhruv-nakum/static/js/main.309d306c.chunk.js",
+    "main.js.map": "/dhruv-nakum/static/js/main.309d306c.chunk.js.map",
+    "runtime-main.js": "/dhruv-nakum/static/js/runtime-main.fe11b674.js",
+    "runtime-main.js.map": "/dhruv-nakum/static/js/runtime-main.fe11b674.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/dhruv-nakum/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.75d295df.chunk.js": "/dhruv-nakum/static/js/2.75d295df.chunk.js",
+    "static/js/2.75d295df.chunk.js.map": "/dhruv-nakum/static/js/2.75d295df.chunk.js.map",
+    "index.html": "/dhruv-nakum/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/dhruv-nakum/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.5be76409.chunk.css.map": "/dhruv-nakum/static/css/main.5be76409.chunk.css.map",
+    "static/js/2.75d295df.chunk.js.LICENSE.txt": "/dhruv-nakum/static/js/2.75d295df.chunk.js.LICENSE.txt",
+    "static/media/Workout.8b043511.png": "/dhruv-nakum/static/media/Workout.8b043511.png",
+    "static/media/ai_reader.e4e90d6f.png": "/dhruv-nakum/static/media/ai_reader.e4e90d6f.png",
+    "static/media/budget_tracker.1b913d4e.png": "/dhruv-nakum/static/media/budget_tracker.1b913d4e.png",
+    "static/media/covid_tracker_mob.b032235b.jfif": "/dhruv-nakum/static/media/covid_tracker_mob.b032235b.jfif",
+    "static/media/down-arrow.119b1e82.svg": "/dhruv-nakum/static/media/down-arrow.119b1e82.svg",
+    "static/media/forkify.bfbfbc40.png": "/dhruv-nakum/static/media/forkify.bfbfbc40.png",
+    "static/media/google_clone.43670dec.jfif": "/dhruv-nakum/static/media/google_clone.43670dec.jfif",
+    "static/media/inbrief.97efb000.png": "/dhruv-nakum/static/media/inbrief.97efb000.png",
+    "static/media/media_player_mob.ea2f06a0.jfif": "/dhruv-nakum/static/media/media_player_mob.ea2f06a0.jfif",
+    "static/media/messanger_app.a3fce18c.jfif": "/dhruv-nakum/static/media/messanger_app.a3fce18c.jfif",
+    "static/media/netflix_clone.95d7f1ec.jfif": "/dhruv-nakum/static/media/netflix_clone.95d7f1ec.jfif",
+    "static/media/pig_game.8692fcc2.png": "/dhruv-nakum/static/media/pig_game.8692fcc2.png",
+    "static/media/spotify_clone.9eb09349.jfif": "/dhruv-nakum/static/media/spotify_clone.9eb09349.jfif",
+    "static/media/todo.64406564.jfif": "/dhruv-nakum/static/media/todo.64406564.jfif",
+    "static/media/waller.9c66f996.png": "/dhruv-nakum/static/media/waller.9c66f996.png",
+    "static/media/weather.26883997.png": "/dhruv-nakum/static/media/weather.26883997.png",
+    "static/media/whatsapp_mob.a8460585.jfif": "/dhruv-nakum/static/media/whatsapp_mob.a8460585.jfif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe11b674.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.75d295df.chunk.js",
+    "static/css/main.5be76409.chunk.css",
+    "static/js/main.309d306c.chunk.js"
+  ]
+}
