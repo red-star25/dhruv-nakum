@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dhruv-nakum/static/css/main.39a6bf63.chunk.css",
-    "main.js": "/dhruv-nakum/static/js/main.21f6b06e.chunk.js",
-    "main.js.map": "/dhruv-nakum/static/js/main.21f6b06e.chunk.js.map",
+    "main.css": "/dhruv-nakum/static/css/main.99f1772e.chunk.css",
+    "main.js": "/dhruv-nakum/static/js/main.c34a42db.chunk.js",
+    "main.js.map": "/dhruv-nakum/static/js/main.c34a42db.chunk.js.map",
     "runtime-main.js": "/dhruv-nakum/static/js/runtime-main.fe11b674.js",
     "runtime-main.js.map": "/dhruv-nakum/static/js/runtime-main.fe11b674.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/dhruv-nakum/static/css/2.7fc9bc2b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.75d295df.chunk.js.map": "/dhruv-nakum/static/js/2.75d295df.chunk.js.map",
     "index.html": "/dhruv-nakum/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/dhruv-nakum/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.39a6bf63.chunk.css.map": "/dhruv-nakum/static/css/main.39a6bf63.chunk.css.map",
+    "static/css/main.99f1772e.chunk.css.map": "/dhruv-nakum/static/css/main.99f1772e.chunk.css.map",
     "static/js/2.75d295df.chunk.js.LICENSE.txt": "/dhruv-nakum/static/js/2.75d295df.chunk.js.LICENSE.txt",
     "static/media/Workout.8b043511.png": "/dhruv-nakum/static/media/Workout.8b043511.png",
     "static/media/ai_reader.e4e90d6f.png": "/dhruv-nakum/static/media/ai_reader.e4e90d6f.png",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.fe11b674.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.75d295df.chunk.js",
-    "static/css/main.39a6bf63.chunk.css",
-    "static/js/main.21f6b06e.chunk.js"
+    "static/css/main.99f1772e.chunk.css",
+    "static/js/main.c34a42db.chunk.js"
   ]
 }
