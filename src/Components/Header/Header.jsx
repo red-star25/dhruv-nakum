@@ -2,6 +2,7 @@ import "./Header.css";
 import React, { useState } from "react";
 import menuIcon from "../../assets/images/menu.png";
 import cancelIcon from "../../assets/images/cancel.png";
+import { motion } from "framer-motion";
 
 function Header() {
   const [selectedLink, setSelectedLink] = useState("home");
@@ -15,9 +16,24 @@ function Header() {
 
   return (
     <div className={headerClass}>
-      <div className={headerLogoClass}>
+      <motion.div
+        className={headerLogoClass}
+        animate={{
+          x: 0,
+          opacity: 1,
+          transition: {
+            duration: 0.5,
+            type: "tween",
+            delay: 0.2,
+          },
+        }}
+        initial={{
+          opacity: 0,
+          x: -100,
+        }}
+      >
         <h1>{"<D>"}</h1>
-      </div>
+      </motion.div>
       <div
         onClick={() => {
           setIsMenuOpen(!isMenuOpen);
@@ -37,7 +53,22 @@ function Header() {
         }}
         className="header__mobile__links header__logo__center"
       >
-        <img src={!isMenuOpen ? menuIcon : cancelIcon} alt="" />
+        <motion.img
+          src={!isMenuOpen ? menuIcon : cancelIcon}
+          alt=""
+          animate={{
+            opacity: 1,
+            transition: {
+              duration: 0.5,
+              type: "tween",
+            },
+            x: 0,
+          }}
+          initial={{
+            opacity: 0,
+            x: +200,
+          }}
+        />
         {isMenuOpen ? (
           <div className="menuLinks">
             <ul>
@@ -87,34 +118,77 @@ function Header() {
         )}
       </div>
       <div className="header__links">
-        <a
+        <motion.a
+          animate={{
+            opacity: 1,
+            transition: {
+              duration: 0.5,
+              type: "tween",
+            },
+          }}
+          initial={{
+            opacity: 0,
+          }}
           onClick={() => onLinkClicked("home")}
           id={selectedLink === "home" ? "selectedLink" : ""}
           href="#home"
         >
           HOME
-        </a>
-        <a
+        </motion.a>
+        <motion.a
+          animate={{
+            opacity: 1,
+            transition: {
+              duration: 0.5,
+              type: "tween",
+              delay: 0.1,
+            },
+          }}
+          initial={{
+            opacity: 0,
+          }}
           onClick={() => onLinkClicked("project")}
           id={selectedLink === "project" ? "selectedLink" : ""}
           href="#project"
         >
           PROJECTS
-        </a>
-        <a
+        </motion.a>
+        <motion.a
+          animate={{
+            opacity: 1,
+            transition: {
+              duration: 0.5,
+              type: "tween",
+              delay: 0.2,
+            },
+          }}
+          initial={{
+            opacity: 0,
+          }}
           onClick={() => onLinkClicked("skills")}
           id={selectedLink === "skills" ? "selectedLink" : ""}
           href="#skills"
         >
           SKILLS
-        </a>
-        <a
+        </motion.a>
+        <motion.a
+          animate={{
+            opacity: 1,
+            transition: {
+              duration: 0.5,
+              type: "tween",
+              delay: 0.3,
+            },
+          }}
+          initial={{
+            opacity: 0,
+          }}
           onClick={() => onLinkClicked("connect")}
           id={selectedLink === "connect" ? "selectedLink" : ""}
           href="#connect"
         >
           CONNECT
-        </a>
+        </motion.a>
       </div>
     </div>
   );
