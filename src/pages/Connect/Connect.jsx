@@ -41,7 +41,6 @@ function Connect() {
           <a href="https://github.com/red-star25" target="_blank">
             GITHUB
           </a>
-          <p>/</p>
         </div>
       </div>
     </div>

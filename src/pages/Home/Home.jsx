@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import potrait from "../../assets/images/b&w.png";
 
 function Home() {
   return (
@@ -20,7 +21,9 @@ function Home() {
           <p>See the projects below, or check out some</p>
         </div>
       </div>
-      <div className="home__right"></div>
+      <div className="home__right">
+        <img src={potrait} alt="" />
+      </div>
     </div>
   );
 }

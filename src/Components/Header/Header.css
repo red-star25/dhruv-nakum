@@ -40,6 +40,12 @@
   display: none;
 }
 
+@media only screen and (max-width: 520px) {
+  .header__logo > h1 {
+    font-size: 3rem;
+  }
+}
+
 @media only screen and (max-width: 880px) {
   .header__mob {
     background-color: transparent;
@@ -58,6 +64,14 @@
     margin-top: 1em;
     width: 100%;
     flex-direction: column;
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -10%);
+    transition: all 1s ease-out;
+  }
+
+  .header__mobile__links.open {
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -10%);
   }
 
   .menuLinks > ul {

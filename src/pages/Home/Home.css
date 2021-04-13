@@ -1,6 +1,9 @@
 .home {
   margin: -3em 0em 0em 5em;
   padding: 1em;
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 .home__title > h1 {
@@ -27,15 +30,44 @@
 
 .home__left {
   height: 100%;
-  width: 100%;
   display: flex;
+  width: 50%;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+}
+.home__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__right > img {
+  width: 50%;
+  border-radius: 150px;
 }
 
 @media only screen and (max-width: 520px) {
   .home {
     margin-left: 3em;
+  }
+
+  .home__left {
+    width: 100%;
+  }
+
+  .home__right {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .home__left {
+    width: 100%;
+  }
+
+  .home__right {
+    display: none;
   }
 }

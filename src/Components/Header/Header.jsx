@@ -31,6 +31,9 @@ function Header() {
           } else {
             setHeaderLogoClass("header__logo");
           }
+          document
+            .querySelector(".header__mobile__links")
+            .classList.toggle("open");
         }}
         className="header__mobile__links header__logo__center"
       >
