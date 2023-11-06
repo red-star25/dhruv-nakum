@@ -39,7 +39,7 @@ function Project() {
     },
     {
       title: "Spotify",
-      subtitle: "Spotify clone Using Spotify Authentication and Media Player",
+      subtitle: "Using Spotify Authentication and Media Player",
       image: spotify,
     },
     {

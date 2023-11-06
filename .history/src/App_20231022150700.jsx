@@ -1,10 +1,10 @@
-import "../src/App.css";
 import Header from "./Components/Header/Header";
-import scrollDownArrow from "./assets/images/down-arrow.svg";
-import Connect from "./pages/Connect/Connect";
 import Home from "./pages/Home/Home";
 import Project from "./pages/Project/Project";
 import Skills from "./pages/Skills/Skills";
+import Connect from "./pages/Connect/Connect";
+import "../src/App.css";
+import scrollDownArrow from "./assets/images/down-arrow.svg";
 
 function App() {
   return (

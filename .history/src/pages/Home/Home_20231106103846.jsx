@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
+import potrait from "../../assets/images/b&w.png";
 import "./Home.css";
 
 function Home() {
@@ -30,20 +31,23 @@ function Home() {
         <div className="home__subtitle">
           <p>Mobile and Web Developer from India.</p>
         </div>
-        <div style={{ marginTop: "2em" }}></div>
-        <div className="resume_btn">
-          <a href="https://drive.google.com/file/d/1vIg0jRUwXptqm2S09jY5MFjWA6coCvS4/view?usp=sharing" download="Dhruv's Resume" target="_blank" rel="noreferrer">Download Resume</a>
-        </div>
-        <div style={{ marginTop: "2em" }}></div>
-        <div className="blog_btn">
-          <a href="https://dhruvnakum.xyz" target="_blank" rel="noreferrer">Visit Blog ↗</a>
+        {/* Make a Download Resume button with 10px border radius and white background with black text */}
+        <div style={{
+          borderRadius: "10px",
+          backgroundColor: "white",
+          color: "white",
+          padding: "10px",
+          marginTop: "10px",
+          cursor: "pointer",
+        }}>
+          <h4 style={{ backgroundColor:"white" }}>Download Resume</h4>
         </div>
         <div className="separator"></div>
         <div className="home__subtitle2">
           <p>See the projects below, or check out some</p>
         </div>
       </motion.div>
-      {/* <motion.div
+      <motion.div
         className="home__right"
         animate={{
           opacity: 1,
@@ -57,7 +61,7 @@ function Home() {
         }}
       >
         <img src={potrait} alt="" />
-      </motion.div> */}
+      </motion.div>
     </div>
   );
 }

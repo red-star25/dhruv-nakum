@@ -68,7 +68,7 @@ function Skills() {
           })}
         </div>
         <div data-aos="fade-left" className="skillsMain__right">
-          <PieChart className="pie-chart" data={skillsData} />
+          <PieChart className="pie-chart" data={skillsData} />;
         </div>
       </div>
       <div className="skills__main2">

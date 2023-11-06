@@ -1,26 +1,22 @@
 import React, { useEffect } from "react";
+import "./Project.css";
+import netflix from "../../assets/images/netflix_clone.jfif";
+import google from "../../assets/images/google_clone.jfif";
+import spotify from "../../assets/images/spotify_clone.jfif";
 import aiReader from "../../assets/images/ai_reader.png";
 import budgetTracker from "../../assets/images/budget_tracker.png";
 import forkify from "../../assets/images/forkify.png";
-import google from "../../assets/images/google_clone.jfif";
-import netflix from "../../assets/images/netflix_clone.jfif";
 import pigGame from "../../assets/images/pig_game.png";
-import spotify from "../../assets/images/spotify_clone.jfif";
 import todo from "../../assets/images/todo.jfif";
-import "./Project.css";
 
 import workout from "../../assets/images/Workout.png";
-import brightstar from "../../assets/images/brightstar.png";
-import covidTracker from "../../assets/images/covid_tracker_mob.jfif";
-import domtm from "../../assets/images/domtm.png";
 import inbrief from "../../assets/images/inbrief.png";
-import matchmde from "../../assets/images/matchmde.png";
-import mediaPlayer from "../../assets/images/media_player_mob.jfif";
-import messanger from "../../assets/images/messanger_app.jfif";
-import towntips from "../../assets/images/towntips.png";
 import waller from "../../assets/images/waller.png";
 import wyck from "../../assets/images/weather.png";
 import whatsapp from "../../assets/images/whatsapp_mob.jfif";
+import messanger from "../../assets/images/messanger_app.jfif";
+import covidTracker from "../../assets/images/covid_tracker_mob.jfif";
+import mediaPlayer from "../../assets/images/media_player_mob.jfif";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -29,17 +25,17 @@ function Project() {
   const webProjects = [
     {
       title: "Netflix",
-      subtitle: "A netflix clone With video functionality and authentication",
+      subtitle: "With video functionality and authentication",
       image: netflix,
     },
     {
       title: "Google",
-      subtitle: "Google search engine clone Using Google Search API",
+      subtitle: "Using Google Search API",
       image: google,
     },
     {
       title: "Spotify",
-      subtitle: "Spotify clone Using Spotify Authentication and Media Player",
+      subtitle: "Using Spotify Authentication and Media Player",
       image: spotify,
     },
     {
@@ -69,26 +65,6 @@ function Project() {
     },
   ];
   const appProjects = [
-    {
-      title: "MatchMde",
-      subtitle: "An AI Dating App",
-      image: matchmde,
-    },
-    {
-      title: "TownTips",
-      subtitle: "Local Search Engine for both customers and businesses",
-      image: towntips,
-    },
-    {
-      title: "Brightstar",
-      subtitle: "An Event and Service management application",
-      image: brightstar,
-    },
-    {
-      title: "DomTm",
-      subtitle: "An online restaurant directory and ordering application",
-      image: domtm,
-    },
     {
       title: "WorkoutGo",
       subtitle: "A Workout App",
@@ -138,11 +114,10 @@ function Project() {
     <div className="project">
       <h1 data-aos="zoom-in">Projects</h1>
       <div data-aos="zoom-in" className="project__seperator"></div>
-      
-      <div className="project__mobile">
-        <h2>Application Development Projects</h2>
+      <div className="project__web">
+        <h2>Website Development Projects</h2>
         <div className="project__listOfProject">
-          {appProjects.map((project) => {
+          {webProjects.map((project) => {
             return (
               <div data-aos="zoom-in-up" className="projectCard__main">
                 <div className="projectCard">
@@ -159,10 +134,10 @@ function Project() {
           })}
         </div>
       </div>
-      <div className="project__web">
-        <h2>Website Development Projects</h2>
+      <div className="project__mobile">
+        <h2>Application Development Projects</h2>
         <div className="project__listOfProject">
-          {webProjects.map((project) => {
+          {appProjects.map((project) => {
             return (
               <div data-aos="zoom-in-up" className="projectCard__main">
                 <div className="projectCard">

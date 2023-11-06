@@ -32,7 +32,7 @@ function Home() {
         </div>
         <div style={{ marginTop: "2em" }}></div>
         <div className="resume_btn">
-          <a href="https://drive.google.com/file/d/1vIg0jRUwXptqm2S09jY5MFjWA6coCvS4/view?usp=sharing" download="Dhruv's Resume" target="_blank" rel="noreferrer">Download Resume</a>
+          <a href="https://drive.google.com/file/d/1vIg0jRUwXptqm2S09jY5MFjWA6coCvS4/view?usp=sharing" download="Dhruv's Resume">Download Resume</a>
         </div>
         <div style={{ marginTop: "2em" }}></div>
         <div className="blog_btn">

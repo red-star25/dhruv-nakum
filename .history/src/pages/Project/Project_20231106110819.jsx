@@ -34,12 +34,12 @@ function Project() {
     },
     {
       title: "Google",
-      subtitle: "Google search engine clone Using Google Search API",
+      subtitle: "Using Google Search API",
       image: google,
     },
     {
       title: "Spotify",
-      subtitle: "Spotify clone Using Spotify Authentication and Media Player",
+      subtitle: "Using Spotify Authentication and Media Player",
       image: spotify,
     },
     {

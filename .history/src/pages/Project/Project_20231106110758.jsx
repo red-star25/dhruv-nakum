@@ -28,18 +28,18 @@ import "aos/dist/aos.css";
 function Project() {
   const webProjects = [
     {
-      title: "Netflix",
-      subtitle: "A netflix clone With video functionality and authentication",
+      title: "Netflix clone",
+      subtitle: "With video functionality and authentication",
       image: netflix,
     },
     {
       title: "Google",
-      subtitle: "Google search engine clone Using Google Search API",
+      subtitle: "Using Google Search API",
       image: google,
     },
     {
       title: "Spotify",
-      subtitle: "Spotify clone Using Spotify Authentication and Media Player",
+      subtitle: "Using Spotify Authentication and Media Player",
       image: spotify,
     },
     {

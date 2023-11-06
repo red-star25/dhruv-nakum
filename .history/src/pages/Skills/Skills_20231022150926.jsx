@@ -68,12 +68,12 @@ function Skills() {
           })}
         </div>
         <div data-aos="fade-left" className="skillsMain__right">
-          <PieChart className="pie-chart" data={skillsData} />
+          <PieChart className="pie-chart" data={skillsData} />;
         </div>
       </div>
       <div className="skills__main2">
         <div data-aos="fade-right" className="skillsMain__left">
-          <PieChart className="pie-chart" data={skillsData2} />
+          <PieChart className="pie-chart" data={skillsData2} />;
         </div>
         <div data-aos="fade-left" className="skillsMain__right">
           {skillsData2.map((skill) => {

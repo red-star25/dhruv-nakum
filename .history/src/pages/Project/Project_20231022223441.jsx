@@ -10,9 +10,7 @@ import todo from "../../assets/images/todo.jfif";
 import "./Project.css";
 
 import workout from "../../assets/images/Workout.png";
-import brightstar from "../../assets/images/brightstar.png";
 import covidTracker from "../../assets/images/covid_tracker_mob.jfif";
-import domtm from "../../assets/images/domtm.png";
 import inbrief from "../../assets/images/inbrief.png";
 import matchmde from "../../assets/images/matchmde.png";
 import mediaPlayer from "../../assets/images/media_player_mob.jfif";
@@ -29,17 +27,17 @@ function Project() {
   const webProjects = [
     {
       title: "Netflix",
-      subtitle: "A netflix clone With video functionality and authentication",
+      subtitle: "With video functionality and authentication",
       image: netflix,
     },
     {
       title: "Google",
-      subtitle: "Google search engine clone Using Google Search API",
+      subtitle: "Using Google Search API",
       image: google,
     },
     {
       title: "Spotify",
-      subtitle: "Spotify clone Using Spotify Authentication and Media Player",
+      subtitle: "Using Spotify Authentication and Media Player",
       image: spotify,
     },
     {
@@ -78,16 +76,6 @@ function Project() {
       title: "TownTips",
       subtitle: "Local Search Engine for both customers and businesses",
       image: towntips,
-    },
-    {
-      title: "Brightstar",
-      subtitle: "An Event and Service management application",
-      image: brightstar,
-    },
-    {
-      title: "DomTm",
-      subtitle: "An online restaurant directory and ordering application",
-      image: domtm,
     },
     {
       title: "WorkoutGo",

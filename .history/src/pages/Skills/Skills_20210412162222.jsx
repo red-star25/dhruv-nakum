@@ -1,8 +1,8 @@
+import React, { useEffect } from "react";
+import "./Skills.css";
+import { PieChart } from "react-minimal-pie-chart";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import React, { useEffect } from "react";
-import { PieChart } from "react-minimal-pie-chart";
-import "./Skills.css";
 
 function Skills() {
   const skillsData = [
@@ -64,16 +64,16 @@ function Skills() {
                   style={{ width: skill.width, backgroundColor: skill.color }}
                 ></div>
               </div>
-            )
+            );
           })}
         </div>
         <div data-aos="fade-left" className="skillsMain__right">
-          <PieChart className="pie-chart" data={skillsData} />
+          <PieChart className="pie-chart" data={skillsData} />;
         </div>
       </div>
       <div className="skills__main2">
         <div data-aos="fade-right" className="skillsMain__left">
-          <PieChart className="pie-chart" data={skillsData2} />
+          <PieChart className="pie-chart" data={skillsData2} />;
         </div>
         <div data-aos="fade-left" className="skillsMain__right">
           {skillsData2.map((skill) => {
@@ -85,7 +85,7 @@ function Skills() {
                   style={{ width: skill.width, backgroundColor: skill.color }}
                 ></div>
               </div>
-            )
+            );
           })}
         </div>
       </div>
